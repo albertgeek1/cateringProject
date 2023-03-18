@@ -7,7 +7,7 @@
 
 
 header .brand img{
-  height: 60px;
+  height: 40px;
 }
 .section-main{
   background-color: #00050b61;
@@ -106,7 +106,7 @@ h1{
 
 .section1 {
   
-  background-image: url('Img/1\ \(2\).jpg');
+  background-image: url(../Img/1\ \(2\).jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -349,7 +349,7 @@ a:hover{
 
   .section1 {
   
-    background-image: url('Img/1\ \(2\).jpg');
+    background-image: url(../Img/1\ \(2\).jpg);
     background-attachment: fixed;
     background-position:center;       
 	  background-size: cover;
