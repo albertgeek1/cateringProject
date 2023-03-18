@@ -5,9 +5,9 @@ window.addEventListener("scroll", function(){
   //change logo
   var logo = document.querySelector(".brand img");
 if (window.scrollY>0) {
-  logo.setAttribute('src', '..logoExperia.jpg');
+  logo.setAttribute('src', 'logoExperia.jpg');
 }else{
-  logo.setAttribute('src', '..logoExperia.jpg');
+  logo.setAttribute('src', 'logoExperia.jpg');
 }
 
 });
