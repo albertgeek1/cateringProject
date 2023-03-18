@@ -97,7 +97,7 @@ h1{
 
 .section1 {
   
-  background-image: url('Img/vine.jpg');
+  background-image: url(../Img/vine.jpg');
   background-color: #404243 ;
   background-attachment: fixed;
   background-size: cover;
@@ -341,7 +341,7 @@ a:hover{
 
   .section1 {
   
-    background-image: url('Img/vine.jpg');
+    background-image: url(../Img/vine.jpg');
     background-attachment: fixed;
     background-position:center;       
 	  background-size: cover;
