@@ -1,0 +1,115 @@
+.slide{
+  align-items: center;
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  background-color:black
+    
+  }
+
+  .slide-contenedor{
+    
+    max-height: 100%;
+    align-items: center;
+    
+    position:sticky;
+    
+   
+    /* margin: auto; */
+  }
+  
+  /* .miSlider{
+    display: none;
+    transition: 2s;
+    max-height: 100vh;
+  } */
+  
+  .miSlider img{
+    width: 100%;
+    max-height: 24vh;
+    height: inherit;
+    object-fit: cover;
+    vertical-align: top;
+    transition: 2s;
+    
+  }
+  
+  .direcciones{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 60px;
+  }
+  
+  .direcciones span{
+    color: #fff;
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  .direcciones span:hover{
+    background: rgba(18, 15, 15, 0.991);
+    transition: .5s;
+    cursor: pointer;
+  }
+  
+  .barras{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom:15px;
+  }
+  
+  .barra{
+    cursor: pointer;
+    height:6px;
+    width: 25px;
+    margin: 0 2px;
+    background: #dcdde1;
+    display: inline-block;
+    margin-left: 3px;
+    
+  }
+  
+  .active{
+    background-color: #200753;
+  }
+  
+  .fade{
+    animation-name: fade;
+    animation-duration: 1.5s;    
+  }
+  
+  @keyframes fade {
+    from {opacity: .4;}
+    to{opacity:1;}
+  }
+  @media screen and (min-width: 1400px){
+    .slide{
+      align-items: center;          
+      background-color:black;
+      width: 100%;
+      height: 60vh;
+      display: flex;
+      flex-direction: column;
+     
+  }
+  .miSlider img{
+    width: 100%;
+    max-height: 40vh;
+   margin-top:100px;
+    object-fit: cover;
+    
+    transition: 2s;
+  }
+
+
+}

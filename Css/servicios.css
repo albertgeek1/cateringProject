@@ -1,0 +1,96 @@
+.services{
+text-align: center;
+  
+
+}
+
+.containerS{
+	width: 100%;
+  display: grid;
+	grid-template-columns: repeat(2,minmax(17rem,1fr));
+	background: #c6e3f287;  /* fallback for old browsers */
+  
+}
+.boxS{
+	padding: 4rem ;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  width: 100%;
+	height: 100%;
+ 
+	
+}
+.boxS img{ 
+	width: 250px;
+}
+
+.boxS2 img{ 
+	width: 100px;
+	height: 100px;
+}
+h3{
+	color: #0e0d0d;
+	font-size: 20px;
+}
+.boxS p{
+	text-align: center;
+}
+
+.boxS2{
+	padding: 4rem;
+	width: 100%;
+	height: 100%;
+}
+
+@media screen and (max-width: 864px) {
+  
+  .containerS{
+		width: 100%;
+		display: grid;
+		grid-template-columns: repeat(auto-fit,minmax(17rem,1fr));
+		background: #c6e3f287;  /* fallback for old browsers */
+		
+	}
+	
+.containerS .mobile{
+
+  font-size: 15px;
+	text-align: center;
+  
+  }
+	.containerS .mobile2{
+
+		font-size: 20px;
+		text-align: center;
+		
+		}
+.containerS p{
+
+  font-size: 15px;
+}
+.containerS a{
+
+  font-size: 15px;
+}
+.boxS{
+	padding: 1rem 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  width: 100%;
+	height: 100%;
+ 
+}
+
+.boxS img{ 
+	width: 150px;
+}
+.boxS2{
+	padding: 1rem 1rem;
+	width: 100%;
+	height: 100%;
+}
+}
