@@ -2,13 +2,7 @@ window.addEventListener("scroll", function(){
   var header = document.querySelector("header");
   header.classList.toggle('down', window.scrollY > 0);
 
-  //change logo
-  var logo = document.querySelector(".brand img");
-if (window.scrollY>0) {
-  logo.setAttribute('src', 'logoExperia.jpg');
-}else{
-  logo.setAttribute('src', 'logoExperia.jpg');
-}
+  
 
 });
 
