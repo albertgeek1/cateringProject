@@ -81,7 +81,7 @@ header .btn{
   color: #fafbf8;
   font-size: 50px;
   cursor: pointer;
-  display: true;
+  display: none;
 }
 
 video{
@@ -454,4 +454,5 @@ a:hover{
   }   
 
  
+
 
