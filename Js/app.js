@@ -1,8 +1,8 @@
 window.addEventListener("scroll", function(){
-  var header = document.querySelector("header");
+  let header = document.querySelector("header");
   header.classList.toggle('down', window.scrollY > 0);
 
-  var logo = document.querySelector(".brand img");
+  let logo = document.querySelector(".brand img");
 if (window.scrollY>0) {
   logo.setAttribute('src', 'Img/logoExperia.jpg');
 }else{
@@ -12,9 +12,9 @@ if (window.scrollY>0) {
 });
 
 //javascript for responsive navigation sidebar menu
-var menu = document.querySelector('.menu');
-var menuBtn = document.querySelector('.menu-btn');
-var closeBtn = document.querySelector('.close-btn');
+let menu = document.querySelector('.menu');
+let menuBtn = document.querySelector('.menu-btn');
+let closeBtn = document.querySelector('.close-btn');
 
 menuBtn.addEventListener("click", () => {
   menu.classList.add('active');
@@ -23,3 +23,4 @@ menuBtn.addEventListener("click", () => {
 closeBtn.addEventListener("click", () => {
   menu.classList.remove('active');
 });
+
