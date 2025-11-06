@@ -2,14 +2,14 @@ let indice = 1;
 muestraSlides(indice);
 
 function avanzaSlide(n){
-    muestraSlides( indice+=n );
+    muestraSlides( indice += n );
 }
 
 function posicionSlide(n){
-    muestraSlides(indice=n);
+    muestraSlides(indice = n);
 }
 setInterval(function tiempo(){
-    muestraSlides(indice+=1)
+    muestraSlides(indice += 1)
 },4500);
 function muestraSlides(n){
     let i;
@@ -31,5 +31,6 @@ function muestraSlides(n){
 
     slides[indice-1].style.display = 'block';
     barras[indice-1].className += ' active';
+
 
 }
