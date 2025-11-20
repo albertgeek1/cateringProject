@@ -1,4 +1,4 @@
-window.addEventListener("scroll", () =>{
+window.addEventListener("scroll", () => {
   let header = document.querySelector("header");
   header.classList.toggle('down', window.scrollY > 0);
 
@@ -23,6 +23,7 @@ menuBtn.addEventListener("click", () => {
 closeBtn.addEventListener("click", () => {
   menu.classList.remove('active');
 });
+
 
 
 
